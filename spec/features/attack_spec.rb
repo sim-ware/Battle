@@ -8,7 +8,7 @@ feature "Attacking" do
     expect(page).to have_content 'Samir attacked Mittens!'
   end
 
-  scenario 'reduce Player 2 HP by 10' do
+  scenario 'Reduce Player 2 HP by 10' do
     sign_in_and_play
     click_button 'Attack!'
 
